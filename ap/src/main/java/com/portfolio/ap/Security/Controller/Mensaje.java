@@ -4,6 +4,8 @@ public class Mensaje {
 
     private String mensaje;
 
+    
+    
     public Mensaje() {
     }
 
@@ -11,6 +13,8 @@ public class Mensaje {
         this.mensaje = mensaje;
     }
 
+    
+    
     public String getMensaje() {
         return mensaje;
     }
