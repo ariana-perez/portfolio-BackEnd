@@ -47,7 +47,7 @@ public class CSkills {
             return new ResponseEntity(new Mensaje("no existe"), HttpStatus.NOT_FOUND);
         }
         sSkills.delete(id);
-        return new ResponseEntity(new Mensaje("producto eliminado"), HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("Producto eliminado"), HttpStatus.OK);
     }
 
     
